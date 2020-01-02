@@ -1,4 +1,4 @@
-import { AV64X4 } from '../index.js';
+import { AV64X4 } from '../index.js'
 
 function main() {
 
@@ -14,8 +14,8 @@ function main() {
 
 function tests() {
 
-    let key = 'chavesecreta'
-    let value = '{ teste: true }{ teste: true }{ teste: true }{ teste: true }{ teste: true }{ teste: true }'
+    let key = 'mysupersecretkey'
+    let value = 'my super secret message'
 
     let av64x4 = new AV64X4(key)
     let encoded = av64x4.encode(value)
