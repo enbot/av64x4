@@ -2,7 +2,7 @@
 
 AV64X4 is simple encryption created with javascript to store information on front-end. It uses a custom base 64 type and 4 indexing tables created at run time based on the provided key.
 
-It is not finished yet.
+It is not finished yet. Available for web browsers only.
 
 ## Installation and testing
 
