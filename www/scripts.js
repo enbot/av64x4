@@ -15,7 +15,7 @@ function main() {
 function tests() {
 
     let key = 'mysupersecretkey'
-    let value = 'my super ultra secret text'
+    let value = 'my super secret message'
 
     console.log('/==========================================================================/');
 
