@@ -15,22 +15,25 @@ function main() {
 function tests() {
 
     let key = 'mysupersecretkey'
-    let value = 'my super secret message'
-
-    let av64x4 = new AV64X4(key)
-    let encoded = av64x4.encode(value)
-    let decoded = av64x4.decode(encoded)
+    let value = 'my super ultra secret text'
 
     console.log('/==========================================================================/');
 
-    console.log(key);
-    console.log(value);
+    let av64x4 = new AV64X4(key)
+    console.log(key)
+    console.log(value)
 
-    console.log('encoded:');
-    console.log(encoded);
+    let encoded = av64x4.encode(value)
+    console.log('encoded:')
+    console.log(encoded)
 
-    console.log('decoded:');
-    console.log(decoded);
+    let decoded = av64x4.decode(encoded)
+    console.log('decoded:')
+    console.log(decoded)
+
+    let when = av64x4.when(encoded)
+    console.log('when:')
+    console.log(when)
 
     console.log('/==========================================================================/');
 

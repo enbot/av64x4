@@ -12,12 +12,11 @@ Use [npm](https://www.npmjs.com/) to install it globally.
 ```bash
 git clone https://github.com/enbot/av64x4.git
 cd ./av64x4/
-cd ./tests/
 npm i -g http-server
 http-server
 ```
 
-Then go to http://localhost:8080/tests/
+Then go to http://localhost:8080/www/
 
 ## Usage
 
