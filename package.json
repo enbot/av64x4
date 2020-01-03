@@ -1,0 +1,29 @@
+{
+  "name": "av64x4",
+  "version": "1.0.0",
+  "description": "AV64X4 is simple encryption created with javascript that use a custom base 64 type and 4 indexing tables created at run time based on provided key.",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enbot/av64x4.git"
+  },
+  "keywords": [
+    "encryption",
+    "AV64X4",
+    "store",
+    "encode"
+  ],
+  "author": "Nathan Botelho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/enbot/av64x4/issues"
+  },
+  "homepage": "https://github.com/enbot/av64x4#readme"
+}
