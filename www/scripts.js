@@ -43,19 +43,19 @@ function tests() {
         myarray: [1, 2, 3, 4, 5, 6],
         a: '( ͡° ͜ʖ ͡°)'
     }
-    console.log(myjson);
 
     let stringfied = JSON.stringify(myjson)
     console.log(stringfied);
 
-    let jsonencoded = av64x4.encode(stringfied)
+    let jsonencoded = av64x4.encode(stringfied, 1578257203447)
     console.log(jsonencoded);
 
     let jsondecoded = av64x4.decode(jsonencoded)
     console.log(jsondecoded);
 
-    let jsonparsed = JSON.parse(jsondecoded)
-    console.log(jsonparsed);
+    let when = av64x4.when(jsonencoded)
+    console.log(when);
+
 
     console.log('/==========================================================================/');
 
