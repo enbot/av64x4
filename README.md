@@ -10,7 +10,7 @@ Clone the project and serve it with [http-server](https://www.npmjs.com/package/
 Use [npm](https://www.npmjs.com/) to install it globally.
 
 ```bash
-git clone https://github.com/enbot/av64x4.git
+git clone https://github.com/notelho/av64x4.git
 cd ./av64x4/
 npm i -g http-server
 http-server
@@ -55,4 +55,4 @@ av64x4.init('anothersupersecretkey')
 Pull requests are welcome. The project will always be open to both logic and performance improvements. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
-[MIT](https://github.com/enbot/av64x4/blob/master/LICENSE)
+[MIT](https://github.com/notelho/av64x4/blob/master/LICENSE)
